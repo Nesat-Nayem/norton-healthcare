@@ -1,7 +1,7 @@
 import React from 'react';
 import { createContext } from 'react';
 // import useFirebase from '../hooks/useFirebase';
-import useFirebase from '../hooks/usefirebase';
+import useFirebase from '../hooks/useFirebase';
 
 export const AuthContext = createContext();
 

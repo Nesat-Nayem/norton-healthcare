@@ -1,9 +1,9 @@
 import React from 'react';
-// import useAuth from '../../../hooks/useAuth';
+import useAuth from '../../../hooks/useAuth';
 // import BannerImage from '../../../images/aboutImage.jpg'
 
 const Login = () => {
-    // const {googleSignIn} = useAuth();
+    const {googleSignIn} = useAuth();
     return (
         <div className=" container">
             <div className="row align-items-center" style={{ height: "100vh" }}>
@@ -20,7 +20,7 @@ const Login = () => {
                         <label htmlFor="" className="text-danger">Forgot your password?</label>
                     </div>
                     <div className="from-group mt-5">
-                        <button  className="btn btn-primary" >Google Sign in</button>
+                        <button onClick={googleSignIn} className="btn btn-primary" >Google Sign in</button>
                     </div>
                 </div>
                 <div className="col-md-6 d-none d-md-block">

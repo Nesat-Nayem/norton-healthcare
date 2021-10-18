@@ -1,30 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import Navbar from './components/Shared/Navbar/Navbar';
-import Login from './components/Shared/Login/Login';
-
+import Contect from "./components/Home/Contect/Contect";
+import Home from "./components/Home/Home/Home";
+import Service from "./components/Home/Service/Service";
+import ServiceDetail from "./components/ServiceDetail/ServiceDetail";
+import Login from "./components/Shared/Login/Login";
+import PrivetRoute from "./components/Shared/Login/PrivetRoute/PrivetRoute";
+import Navbar from "./components/Shared/Navbar/Navbar";
+import NotFound from "./components/Shared/NotFound/NotFound";
+import AuthProvider from "./Context/AuthProvider";
 
 
 function App() {
   return (
-    <div className="App">
-     <Router>
-       <Navbar></Navbar>
-       <Switch>
-          <Route path="/Login">
-           
-          <Login></Login>
-             
+    <AuthProvider>
+      <Router>
+      <Navbar></Navbar>
+        <Switch>
+        
+          <Route exact path="/">
+            <Home></Home>
           </Route>
-       </Switch>
-     </Router>
-    </div>
+          <Route path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/service">
+            <Service></Service>
+          </Route>
+
+          <Route path="/Contect">
+            <Contect></Contect>
+          </Route>
+
+          <PrivetRoute path="/bookVehicle/:id">
+            <ServiceDetail></ServiceDetail>
+          </PrivetRoute>
+
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
+        </Switch>
+      </Router>
+    </AuthProvider>
   );
 }
 
