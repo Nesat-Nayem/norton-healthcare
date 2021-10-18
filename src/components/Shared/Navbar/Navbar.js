@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
-import carLogo from '../../../images/654.jpg'
+// import carLogo from '../../../images/654.jpg'
 
 const Navbar = () => {
     const {logOut, user} = useAuth();
-    console.log(user);
+    // console.log(user);
     return (
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -27,7 +27,7 @@ const Navbar = () => {
                            
                                  <Link to="/Contect" className="nav-link">Contact</Link>
 
-
+                                 <h6 className="mt-2 mx-3"> {user.displayName} </h6>
                             { user.email?
                                 <Link to="/login">
                                 <button onClick={logOut} className="btn btn-warning me-2" >Log-out</button>
