@@ -15,9 +15,15 @@ const ServicesOtherCard = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p>{shortdes}</p>
-                    <Link to={`/bookVehicle/${_id}`}>
+
+                <Link to={`/bookVehicle/${_id}`}>
+                    <h6 className="btn text-info">View Details <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></h6>
+                    
+                    </Link>
+
+                    {/* <Link to={`/bookVehicle/${_id}`}>
                             <h6 className="btn margin">View Details <i class="fas fa-chevron-right margin"></i><i class="fas fa-chevron-right margin"></i> </h6>
-                        </Link>
+                        </Link> */}
                 </div>
              
             </div>
