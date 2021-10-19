@@ -1,10 +1,10 @@
 import React from 'react';
 import { useHistory } from 'react-router';
-import { Link } from 'react-router-dom';
-import './VehicleCard.css'
+import { Link} from 'react-router-dom';
+import './ServicesOtherCard.css'
 
-const VehicleCard = (props) => {
-    const { name, price, imageURL, description, _id } = props.vehicle;
+const ServicesOtherCard = (props) => {
+    const { name, imageURL,shortdes, _id } = props.ServicesOther;
     // let history = useHistory();
 
     // const bookVehicle = (id) => {
@@ -19,19 +19,15 @@ const VehicleCard = (props) => {
                 </div>
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
-                    <p>{description}</p>
-                </div>
-                <div className="card-footer">
-                    <div className="d-flex align-items-center justify-content-between ">
-                        <h3 className="text-warning fw-bold">$ {price}</h3>
-                        <Link to={`/bookVehicle/${_id}`}>
-                            <button className="btn btn-success">Book Now</button>
+                    <p>{shortdes}</p>
+                    <Link to={`/bookVehicle/${_id}`}>
+                            <h6 className="btn margin">View Details <i class="fas fa-chevron-right margin"></i><i class="fas fa-chevron-right margin"></i> </h6>
                         </Link>
-                    </div>
                 </div>
+             
             </div>
         </div>
     );
 };
 
-export default VehicleCard;
+export default ServicesOtherCard;

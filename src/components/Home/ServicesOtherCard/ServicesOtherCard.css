@@ -1,0 +1,16 @@
+/* .vehicleCard:hover img{
+    overflow: hidden;
+    transform: scale(1.2);
+    transition: transform 1s;
+} */
+
+.vehicleCard img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.margin{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #13c5dd;
+}

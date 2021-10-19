@@ -3,17 +3,21 @@ import Footer from '../../Shared/Footer/Footer';
 import AboutCompany from '../AboutCompany/AboutCompany';
 import Contacts from '../Contacts/Contacts';
 import Header from '../Header/Header';
-import Testimonials from '../Testimonials/Testimonials';
-import Vehicles from '../Vehicles/Vehicles';
+import ServicesOther from '../ServicesOther/ServicesOther';
+
+// import Vehicles from '../Vehicles/Vehicles';
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
-            <Vehicles></Vehicles>
+            {/* <Vehicles></Vehicles> */}
+
+            <ServicesOther></ServicesOther>
+
             <AboutCompany></AboutCompany>
             <Contacts/>
-            <Testimonials/>
+            {/* <Testimonials/> */}
             <Footer></Footer>
         </div>
     );
