@@ -47,14 +47,6 @@ function App() {
           </Route>
 
 
-
-
-          {/* <Route path="/Contect">
-            <Contect></Contect>
-            
-
-          </Route> */}
-
           <Route path="/PatientsVisitors">
            
             <PatientsVisitors></PatientsVisitors>
@@ -72,6 +64,10 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+
+
+
+    
       </Router>
     </AuthProvider>
   );
