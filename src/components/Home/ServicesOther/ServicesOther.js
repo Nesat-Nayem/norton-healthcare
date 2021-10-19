@@ -18,7 +18,7 @@ const ServicesOther = () => {
     return (
         <section id="book-ride" className="mt-5 container">
           
-            <h2 className="fw-bolder my-5">Medical Services</h2>
+            <h2 className="fw-bolder my-5 text-info">Medical Services</h2>
            
             <div className="row">
                 {

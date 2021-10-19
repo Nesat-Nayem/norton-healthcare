@@ -16,7 +16,7 @@ const LocationsDirections = () => {
             <img className="img-fluid" src="https://ssmc.ae/assets/uploads/2019/10/top-slider3.png" alt="" />
 
             <div>
-                <h1 className="m-2 mainText p-5">Find Your Nearest Locations Our Hospital Because We Offer World Fast Class Hospital facility</h1>
+                <h1 className="m-2 mainText p-5 text-success">Find Your Nearest Locations Our Hospital Because We Offer World Fast Class Hospital facility</h1>
 
             <div>
                 <div className="row">
