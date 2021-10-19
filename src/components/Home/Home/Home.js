@@ -4,7 +4,9 @@ import AboutCompany from '../AboutCompany/AboutCompany';
 import Contacts from '../Contacts/Contacts';
 import Header from '../Header/Header';
 import ServicesOther from '../ServicesOther/ServicesOther';
-import Testimonials from '../Testimonials/Testimonials';
+
+
+import Blog from '../Blog/Blog';
 
 
 
@@ -19,7 +21,9 @@ const Home = () => {
             {/* <AboutCompany></AboutCompany> */}
            
          
-            <Testimonials></Testimonials>
+       
+
+            <Blog></Blog>
 
              {/* <Contacts/> */}
 

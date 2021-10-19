@@ -1,9 +1,10 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-const TestimonialCard = (props) => {
-    const { subTitle, Title, description,photoURL } = props.testimonial;
+const BlogCard = (props) => {
+
+  
+
+    const { subTitle, Title, description,photoURL } = props.Blog;
 
     return (
         <div className="mb-3 col-lg-6 col-sm-6">
@@ -25,4 +26,5 @@ const TestimonialCard = (props) => {
     );
 };
 
-export default TestimonialCard;
+
+export default BlogCard;

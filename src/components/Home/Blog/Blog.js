@@ -1,15 +1,25 @@
 import React, { useEffect, useState } from 'react';
-import TestimonialCard from '../TestimonialCard/TestimonialCard';
 
-const Testimonials = () => {
-    const [testimonials, setTestimonials] = useState([]);
+
+import BlogCard from '../BlogCard/BlogCard';
+
+
+
+const Blog = () => {
+
+
+   
+
+    const [Blogs, setBlogs] = useState([]);
     
     // Loading Data 
     useEffect(() => {
         fetch('./testimonials.json')
             .then(res => res.json())
             // .then(reviews => console.log(reviews)
-            .then(reviews => setTestimonials(reviews))
+          
+
+            .then(reviews => setBlogs(reviews))
             
                 
             
@@ -19,7 +29,7 @@ const Testimonials = () => {
         <section className="my-5 " id="testimonials">
             <div className="container">
               
-                {/* <p className="text-center text-success ">this is text place</p> */}
+               
                 <div className="my-5">
                 <h5 className="text-center fw-bolder">Blogs</h5>
                 <h1 className="text-center">Recent News & <span style={{ color: '#ff4d30' }}>Advices</span></h1>
@@ -28,8 +38,10 @@ const Testimonials = () => {
                 
                 
                 <div className="row">
+                  
+                    
                     {
-                        testimonials.map(testimonial => <TestimonialCard testimonial={testimonial}></TestimonialCard>)
+                        Blogs.map(Blog => <BlogCard Blog={Blog}></BlogCard>)
                     }
                 </div>
             </div>
@@ -37,4 +49,5 @@ const Testimonials = () => {
     );
 };
 
-export default Testimonials;
+
+export default Blog;
