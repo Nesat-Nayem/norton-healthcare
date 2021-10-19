@@ -14,7 +14,7 @@ const Blog = () => {
     
     // Loading Data 
     useEffect(() => {
-        fetch('./testimonials.json')
+        fetch('./blogs.json')
             .then(res => res.json())
             // .then(reviews => console.log(reviews)
           

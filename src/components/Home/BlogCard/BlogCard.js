@@ -4,7 +4,7 @@ const BlogCard = (props) => {
 
   
 
-    const { subTitle, Title, description,photoURL } = props.Blog;
+    const { subTitle, Title,writer, description,photoURL } = props.Blog;
 
     return (
         <div className="mb-3 col-lg-6 col-sm-6">
@@ -18,7 +18,7 @@ const BlogCard = (props) => {
                     <p>{description}</p>
                 </div>
                 <div className="card-footer text-start ">
-                <p>Writer: <span className="text-primary">&#64;maria</span></p>
+                <p>Writer: <span className="text-primary">&#64;{writer}</span></p>
                     
                 </div>
             </div>

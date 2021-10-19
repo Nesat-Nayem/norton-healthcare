@@ -7,6 +7,7 @@ import ServicesOther from '../ServicesOther/ServicesOther';
 
 
 import Blog from '../Blog/Blog';
+import Doctor from '../Doctor/Doctor'
 
 
 
@@ -18,14 +19,13 @@ const Home = () => {
 
             <ServicesOther></ServicesOther>
 
-            {/* <AboutCompany></AboutCompany> */}
            
-         
-       
-
             <Blog></Blog>
 
-             {/* <Contacts/> */}
+            
+            <Doctor></Doctor>
+
+            
 
             <Footer></Footer>
         </div>

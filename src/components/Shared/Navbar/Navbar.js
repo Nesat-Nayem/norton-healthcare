@@ -1,4 +1,5 @@
 import React from 'react';
+import './Navbar.css'
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 // import carLogo from '../../../images/654.jpg'
@@ -8,11 +9,11 @@ const Navbar = () => {
     // console.log(user);
     return (
         <div className="container">
-            <nav className="navbar navbar-expand-lg navbar-light">
-                <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg navbar-light py-5">
+                <div className="container">
                     <div className="d-flex">
                        
-                        <h1 className="navbar-brand">Northon helthcare</h1>
+                        <h1 className="navbar-brand site_name">NORTHON HELTHCARE</h1>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
