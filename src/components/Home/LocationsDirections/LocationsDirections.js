@@ -2,16 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
-
 const LocationsDirections = () => {
-    // return (
-    //     <div>
-    //         <h1>this is location and deraction</h1>
-    //     </div>
-    // );
-
-    // // here is start
-
+  
     const[campuse,setCampus]= useState([])
 
     useEffect(()=>{
@@ -25,10 +17,6 @@ const LocationsDirections = () => {
 
             <div>
                 <h1 className="m-2 mainText p-5">Find Your Nearest Locations Our Hospital Because We Offer World Fast Class Hospital facility</h1>
-
-
-
-            {/* campus card area */}
 
             <div>
                 <div className="row">
@@ -49,14 +37,10 @@ const LocationsDirections = () => {
                 ))}
                 </div>
                 </div>
-
-            {/* campus card area */}
-
             </div>
         </div>
     );
 
-    // here is start
 };
 
 export default LocationsDirections;

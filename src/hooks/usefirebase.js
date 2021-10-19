@@ -5,17 +5,11 @@ authInit();
 
 const useFirebase = () => {
     const auth = getAuth();
-
-    // constom
-
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [isLogin, setIsLogin] = useState(false);
-
-    // constom
-
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);
 
@@ -34,7 +28,6 @@ const useFirebase = () => {
     }
 
 
-    // constom
     const toggleLogin = e => {
         setIsLogin(e.target.checked)
       }
@@ -105,10 +98,6 @@ const useFirebase = () => {
           .then(result => { })
       }
      
-    
-
-    // constom
-
     useEffect(() => {
         const unsubcribed = onAuthStateChanged(auth, (user) => {
             if (user) {
@@ -136,7 +125,6 @@ const useFirebase = () => {
         toggleLogin,
         isLogin,
         
-       
         handleRegistration,
         error,
         logOut

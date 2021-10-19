@@ -2,8 +2,6 @@ import React from 'react';
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
-// import carLogo from '../../../images/654.jpg'
-
 const Navbar = () => {
     const {logOut, user} = useAuth();
     // console.log(user);
@@ -24,8 +22,6 @@ const Navbar = () => {
                             <Link to="/home" className="nav-link">Home</Link>
                             <Link to="/LocationsDirections" className="nav-link">Locations & Directions</Link>
                             
-                          
-                           
                                  <Link to="/PatientsVisitors" className="nav-link"> Patients & Visitors</Link>
 
                                  <h6 className="mt-2 mx-3"> {user.displayName} </h6>

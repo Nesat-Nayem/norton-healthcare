@@ -1,38 +1,11 @@
 import React from 'react';
 import useAuth from '../../../hooks/useAuth';
-// import BannerImage from '../../../images/aboutImage.jpg'
-
 const Login = () => {
     const {googleSignIn, handleNameChange,handlePasswordChange,isLogin,toggleLogin, handleRegistration,handleEmailChange,error} = useAuth();
-
-
-
-
     return (
         <div className=" container">
             <div className="row align-items-center" style={{ height: "100vh" }}>
                 <div className="col-md-6 shadow p-5">
-
-
-
-                    {/* <div className="form-group">
-                        <label htmlFor="">User Name</label>
-                        <input type="text" className="form-control" />
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="">Password</label>
-                        <input type="password" className="form-control" />
-                    </div>
-                    <button type="submit" className="btn btn-primary me-3">
-                  Register
-                      </button>
-                      
-                    <button type="submit" className="btn btn-primary">
-                   Login
-                      </button> */}
-
-                    {/* coustom */}
-
                     <form onSubmit={handleRegistration}>
         <h3 className="text-primary">Please {isLogin ? 'Login' : 'Register'}</h3>
         {!isLogin && <div className="row mb-3">
@@ -67,13 +40,8 @@ const Login = () => {
         <button type="submit" className="btn btn-primary">
           {isLogin ? 'Login' : 'Register'}
         </button>
-        
 
-      </form>
-
-                    {/* coustom */}
-
-
+                </form>
                     <div className="form-group">
                         <label htmlFor="" className="text-danger">Forgot your password?</label>
                     </div>

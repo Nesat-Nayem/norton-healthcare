@@ -36,10 +36,7 @@ const FooterQuickLinks = () => {
                         <span style={{fontSize:'1.3em',}}>Instagram</span>
                     </Link>
                 </li>
-
-                
-            </ul>
-        
+            </ul> 
     );
 };
 

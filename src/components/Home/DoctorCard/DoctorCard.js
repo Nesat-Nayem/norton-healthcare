@@ -1,11 +1,6 @@
 import React from 'react';
 
-// const BlogCard = (props) => {
 const DoctorCard = (props) => {
-
-  
-
-    // const { subTitle, Title, description,photoURL } = props.Blog;
 
     const { name,positon, photoURL } = props.Doctor;
 
@@ -14,8 +9,7 @@ const DoctorCard = (props) => {
             <div className="card shadow-lg w-100 h-100 text-center rounded">
                 <div className="card-body text-start">
                     <img className="img-fluid mb-5" src={photoURL} alt="" />
-
-                    
+                   
                     <h3 className="card-title">{name}</h3>
                     
                     <h6>{positon}</h6>
@@ -26,6 +20,4 @@ const DoctorCard = (props) => {
     );
 };
 
-
-// export default BlogCard;
 export default DoctorCard;

@@ -2,8 +2,6 @@ import React from 'react';
 
 const BlogCard = (props) => {
 
-  
-
     const { subTitle, Title,writer, description,photoURL } = props.Blog;
 
     return (

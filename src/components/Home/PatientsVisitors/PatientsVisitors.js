@@ -4,8 +4,6 @@ import { useEffect } from 'react';
 
 const PatientsVisitors = () => {
    
-
-
         const[campuse,setCampus]= useState([])
 
         useEffect(()=>{
@@ -19,10 +17,6 @@ const PatientsVisitors = () => {
     
                 <div>
                     <h1 className="m-2 mainText p-5">We Find out Our patients History To Use Our Work Motivation And Speed More Then Fast. We listen there So Much Lovely And sincerely</h1>
-    
-    
-    
-                {/* campus card area */}
     
                 <div>
                     <div className="row">
@@ -44,15 +38,9 @@ const PatientsVisitors = () => {
                     </div>
                     </div>
     
-                {/* campus card area */}
-    
                 </div>
             </div>
         );
-
-
-        // import
-
 };
 
 export default PatientsVisitors;
