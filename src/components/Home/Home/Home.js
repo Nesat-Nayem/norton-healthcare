@@ -27,7 +27,7 @@ const Home = () => {
 
             
 
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

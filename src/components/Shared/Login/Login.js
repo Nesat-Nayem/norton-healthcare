@@ -82,7 +82,7 @@ const Login = () => {
                     </div>
                 </div>
                 <div className="col-md-6 d-none d-md-block">
-                    <img className="img-fluid" src="https://i.ibb.co/Jshvd1N/img-2.jpg" alt="" />
+                    <img className="img-fluid" src="https://i.ibb.co/bKpcsYd/imaj-1.jpg" alt="" />
                 </div>
             </div>
         </div>

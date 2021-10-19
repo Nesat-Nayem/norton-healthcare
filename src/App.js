@@ -11,6 +11,7 @@ import LocationsDirections from "./components/Home/LocationsDirections/Locations
 import PatientsVisitors from "./components/Home/PatientsVisitors/PatientsVisitors";
 import Service from "./components/Home/Service/Service";
 import ServiceDetail from "./components/ServiceDetail/ServiceDetail";
+import Footer from "./components/Shared/Footer/Footer";
 import Login from "./components/Shared/Login/Login";
 import PrivetRoute from "./components/Shared/Login/PrivetRoute/PrivetRoute";
 import Navbar from "./components/Shared/Navbar/Navbar";
@@ -67,7 +68,7 @@ function App() {
 
 
 
-    
+        <Footer></Footer>
       </Router>
     </AuthProvider>
   );
