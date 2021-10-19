@@ -8,19 +8,22 @@ const Testimonials = () => {
     useEffect(() => {
         fetch('./testimonials.json')
             .then(res => res.json())
-            .then(reviews => console.log(reviews)
-            //     {
-            //     setTestimonials(reviews);
-            // }
-            )
+            // .then(reviews => console.log(reviews)
+            .then(reviews => setTestimonials(reviews))
+            
+                
+            
     }, [])
 
     return (
-        <section className="my-5 bg-light" id="testimonials">
+        <section className="my-5 " id="testimonials">
             <div className="container">
-                <p className="text-center fw-bolder">doing somethis</p>
-                <h1 className="text-center">fasion'<span style={{ color: '#ff4d30' }}>we doing</span></h1>
-                <p className="text-center text-success ">this is text place</p>
+              
+                {/* <p className="text-center text-success ">this is text place</p> */}
+                <div className="my-5">
+                <h5 className="text-center fw-bolder">Blogs</h5>
+                <h1 className="text-center">Recent News & <span style={{ color: '#ff4d30' }}>Advices</span></h1>
+                </div>
                
                 
                 

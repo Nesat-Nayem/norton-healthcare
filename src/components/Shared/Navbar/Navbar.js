@@ -21,11 +21,11 @@ const Navbar = () => {
                         <div className="navbar-nav ms-auto">
 
                             <Link to="/home" className="nav-link">Home</Link>
-                            <Link to="/service" className="nav-link">Services</Link>
+                            <Link to="/service" className="nav-link">Our defrent location sector</Link>
                             
                           
                            
-                                 <Link to="/Contect" className="nav-link">Contact</Link>
+                                 <Link to="/Contect" className="nav-link">About us</Link>
 
                                  <h6 className="mt-2 mx-3"> {user.displayName} </h6>
                             { user.email?

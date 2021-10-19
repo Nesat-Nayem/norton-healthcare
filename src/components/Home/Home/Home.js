@@ -4,20 +4,25 @@ import AboutCompany from '../AboutCompany/AboutCompany';
 import Contacts from '../Contacts/Contacts';
 import Header from '../Header/Header';
 import ServicesOther from '../ServicesOther/ServicesOther';
+import Testimonials from '../Testimonials/Testimonials';
 
-// import Vehicles from '../Vehicles/Vehicles';
+
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
-            {/* <Vehicles></Vehicles> */}
+         
 
             <ServicesOther></ServicesOther>
 
-            <AboutCompany></AboutCompany>
-            <Contacts/>
-            {/* <Testimonials/> */}
+            {/* <AboutCompany></AboutCompany> */}
+           
+         
+            <Testimonials></Testimonials>
+
+             {/* <Contacts/> */}
+
             <Footer></Footer>
         </div>
     );

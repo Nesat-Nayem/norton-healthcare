@@ -1,8 +1,8 @@
 import React from 'react';
-import aboutImage from '../../../images/aboutImage.jpg';
-import { useSpring, animated } from 'react-spring';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCarSide, faCity, faWarehouse } from '@fortawesome/free-solid-svg-icons';
+// import aboutImage from '../../../images/aboutImage.jpg';
+// import { useSpring, animated } from 'react-spring';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCarSide, faCity, faWarehouse } from '@fortawesome/free-solid-svg-icons';
 
 const AboutCompany = () => {
     
@@ -14,9 +14,9 @@ const AboutCompany = () => {
                     {/* <img className="img-fluid" src={aboutImage} alt="" /> */}
                 </div>
                 <div className="col-md-6 mb-2">
-                    <h4>here is a section we emplement</h4>
-                    <h3 className="fw-bolder w-50">yea it come fast</h3>
-                    <p>sonn back </p>
+                    <h4>firebase check</h4>
+                    <h3 className="fw-bolder w-50">test is firebase work</h3>
+                    <p>lets see </p>
                     <hr />
                     <div className="d-flex justify-content-between">
                        
