@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className="container">
                     <div className="d-flex">
                        
-                        <h1 className="navbar-brand site_name">NORTHON HELTHCARE</h1>
+                        <h1 className="navbar-brand site_name">NORTHON HOSPITAL</h1>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -22,11 +22,11 @@ const Navbar = () => {
                         <div className="navbar-nav ms-auto">
 
                             <Link to="/home" className="nav-link">Home</Link>
-                            <Link to="/service" className="nav-link">Our defrent location sector</Link>
+                            <Link to="/LocationsDirections" className="nav-link">Locations & Directions</Link>
                             
                           
                            
-                                 <Link to="/Contect" className="nav-link">About us</Link>
+                                 <Link to="/PatientsVisitors" className="nav-link"> Patients & Visitors</Link>
 
                                  <h6 className="mt-2 mx-3"> {user.displayName} </h6>
                             { user.email?

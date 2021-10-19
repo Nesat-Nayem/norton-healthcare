@@ -14,13 +14,23 @@ const ServiceDetail = () => {
 
     
     return (
-        <div>
-             <img src={ExactIteam[0]?.imageURL} alt="" />
-            <h1>This is service Detail Page </h1>
-            <h3>Name : {ExactIteam[0]?.name}</h3>
-            <h3>price : {ExactIteam[0]?.price}</h3>
-            <h3>description : {ExactIteam[0]?.description}</h3>
-            <h3>chek:{ExactIteam[0]?.my}</h3>
+        <div className="container">
+            <h1 className="text-center my-5">Explore Details </h1>
+            <div className="container mb-5 col-lg-10 col-sm-6 ">
+            <div className="card shadow-lg w-100 h-100 text-center rounded ServicsCard text-start">
+
+
+
+            
+            <img src={ExactIteam[0]?.imageURL} alt="" />
+            <h3 className="text-start ms-5">{ExactIteam[0]?.name}</h3>
+           
+            <p className="text-start w-75 ms-5">{ExactIteam[0]?.description}</p>
+            
+
+            </div>
+
+            </div>
         </div>
     );
 };
