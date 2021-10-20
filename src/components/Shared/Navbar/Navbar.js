@@ -19,10 +19,10 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
 
-                            <Link to="/home" className="nav-link">Home</Link>
-                            <Link to="/LocationsDirections" className="nav-link">Locations & Directions</Link>
+                            <Link to="/home" className="nav-link fw-bold">Home</Link>
+                            <Link to="/LocationsDirections" className="nav-link fw-bold">Locations & Directions</Link>
                             
-                                 <Link to="/AdvancedTechnologies" className="nav-link"> Advanced & Technologies</Link>
+                                 <Link to="/AdvancedTechnologies" className="nav-link fw-bold"> Advanced & Technologies</Link>
 
                                  <h6 className="mt-2 mx-3"> {user.displayName} </h6>
                             { user.email?
