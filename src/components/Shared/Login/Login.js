@@ -7,7 +7,7 @@ const Login = () => {
             <div className="row align-items-center" style={{ height: "100vh" }}>
                 <div className="col-md-6 shadow p-5">
                     <form onSubmit={handleRegistration}>
-        <h3 className="text-primary">Please {isLogin ? 'Login' : 'Register'}</h3>
+        <h3 className="text-primary mb-5">Please {isLogin ? 'Login' : 'Register'}</h3>
         {!isLogin && <div className="row mb-3">
           <label htmlFor="inputName" className="col-sm-2 col-form-label">Name</label>
           <div className="col-sm-10">
@@ -17,20 +17,20 @@ const Login = () => {
         <div className="row mb-3">
           <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
           <div className="col-sm-10">
-            <input onBlur={handleEmailChange} type="email" className="form-control" id="inputEmail3" required />
+            <input onBlur={handleEmailChange} type="email" className="form-control" id="inputEmail3" required  placeholder="Your Email"/>
           </div>
         </div>
         <div className="row mb-3">
           <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
           <div className="col-sm-10">
-            <input type="password" onBlur={handlePasswordChange} className="form-control" id="inputPassword3" required />
+            <input type="password" onBlur={handlePasswordChange} className="form-control" id="inputPassword3" required placeholder="Your Password" />
           </div>
         </div>
         <div className="row mb-3">
           <div className="col-sm-10 offset-sm-2">
             <div className="form-check">
               <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
-              <label className="form-check-label" htmlFor="gridCheck1">
+              <label className="form-check-label fw-bold " htmlFor="gridCheck1">
                 Already Registered?
               </label>
             </div>
@@ -41,12 +41,9 @@ const Login = () => {
           {isLogin ? 'Login' : 'Register'}
         </button>
 
-                </form>
-                    <div className="form-group">
-                        <label htmlFor="" className="text-danger">Forgot your password?</label>
-                    </div>
+                </form>                  
                     <div className="from-group mt-5">
-                        <button onClick={googleSignIn} className="btn btn-primary" >Google Sign in</button>
+                        <button onClick={googleSignIn} className="btn btn-primary" ><i class="fab  fa-google"></i>    Google Sign in</button>
                     </div>
                 </div>
                 <div className="col-md-6 d-none d-md-block">

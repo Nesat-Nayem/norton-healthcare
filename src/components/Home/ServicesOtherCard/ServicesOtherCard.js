@@ -16,7 +16,7 @@ const ServicesOtherCard = (props) => {
                     <h5 className="card-title">{name}</h5>
                     <p>{shortdes}</p>
 
-                <Link to={`/bookVehicle/${_id}`}>
+                <Link to={`/servicesdetails/${_id}`}>
                     <h6 className="btn text-info">View Details <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></h6>         
                     </Link>
 

@@ -7,7 +7,7 @@ import {
 
 import Home from "./components/Home/Home/Home";
 import LocationsDirections from "./components/Home/LocationsDirections/LocationsDirections";
-import PatientsVisitors from "./components/Home/PatientsVisitors/PatientsVisitors";
+import AdvancedTechnologies from "./components/Home/AdvancedTechnologies/AdvancedTechnologies";
 import ServiceDetail from "./components/ServiceDetail/ServiceDetail";
 import Footer from "./components/Shared/Footer/Footer";
 import Login from "./components/Shared/Login/Login";
@@ -40,11 +40,11 @@ function App() {
           </Route>
 
 
-          <Route path="/PatientsVisitors">
-            <PatientsVisitors></PatientsVisitors>
+          <Route path="/AdvancedTechnologies">
+            <AdvancedTechnologies></AdvancedTechnologies>
           </Route>
 
-          <PrivetRoute path="/bookVehicle/:id">
+          <PrivetRoute path="/servicesdetails/:id">
             <ServiceDetail></ServiceDetail>
           </PrivetRoute>
 

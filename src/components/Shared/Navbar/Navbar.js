@@ -22,7 +22,7 @@ const Navbar = () => {
                             <Link to="/home" className="nav-link">Home</Link>
                             <Link to="/LocationsDirections" className="nav-link">Locations & Directions</Link>
                             
-                                 <Link to="/PatientsVisitors" className="nav-link"> Patients & Visitors</Link>
+                                 <Link to="/AdvancedTechnologies" className="nav-link"> Advanced & Technologies</Link>
 
                                  <h6 className="mt-2 mx-3"> {user.displayName} </h6>
                             { user.email?

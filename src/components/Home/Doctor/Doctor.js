@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import './Doctor.css'
 import DoctorCard from '../DoctorCard/DoctorCard';
 
 const Doctor = () => {
@@ -22,7 +22,7 @@ const Doctor = () => {
             <div className="container">
             
                 <div className="my-5 text-start">
-                <h5 className=" fw-bolder">We are achieve the success.</h5>
+                <h5 className=" fw-fw-bolder activ">We are achieve the success.</h5>
                 <h1 className=" ">Our   & <span style={{ color: '#ff4d30' }}>Specialist</span> Doctors</h1>
                 </div>
                

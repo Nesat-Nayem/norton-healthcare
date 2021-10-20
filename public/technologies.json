@@ -1,0 +1,64 @@
+{
+
+    "Technologies":[
+   
+       {
+       
+         "title":"SPECT/CT",
+         "discription":"SPECT/CT is an advanced and highly integrated diagnostic solution. It expands the role of nuclear medicine into routine surgical planning, orthopedics, advanced cardiology, and much more.",
+         "id": "PuW 5a6 845lhsdt8 3g3 P",
+         "picture": "http://www.sevenhillshospital.com/images/large/sevenhills-spct-ct-technology-lg.jpg"
+        
+       },
+   
+       
+       
+       {
+   
+         "title":"EEG (Electroencephalography)",
+         "discription":"The electroencephalogram (EEG) is a measure of brain waves. It is a readily available test that provides evidence of how the brain functions over time.",
+         "id": "Pj5euW 5a6 8348 3pu3 P",
+         "picture": "http://www.sevenhillshospital.com/images/large/sevenhills-eeg-lg.jpg"
+         
+       },
+       
+       {
+        
+         "title":"LINAC Accelerator (Novalis Tx)",
+         "discription":"Novalis Tx is a radiosurgery system that is one of the most advanced cancer treatments available. Radiosurgery is a highly precise form of radiation therapy that uses a beam of energy that is shaped to match the outline of the tumor.",
+         "id": "PyuW 5al6 848 35hsr63 P",
+         "picture": "http://www.sevenhillshospital.com/images/large/sevenhills-novalis-tx-lg.jpg"
+         
+       },
+       
+       {
+       
+         "title":"3 Tesla MRI",
+         "discription":"The 3T Magnetom Trio is extremely efficient. Utilizing shorter scan times, and must we mantain quality best and provide world fast class services the 3T machine maximizes patient comfort without compromising quality.",
+        
+         "id": "PuW 5a6 8hi8 3yw4sgd3 P",
+         
+         "picture":"http://www.sevenhillshospital.com/images/large/sevenhills-3-tesla-mri-technology-lg.jpg"
+       },
+       {
+       
+         "title":"C-Arm Scan",
+         "discription":"C-Arms are one of the driving technological forces behind the advancement of minimally invasive surgeries.for in a variety of surgical and nonsurgical procedures.",
+        
+         "id": "PuW 5a6 8hi8 3yw4sgd3 P",
+         
+         "picture":"http://www.sevenhillshospital.com/images/large/sevenhills-c-arm-scan-lg.jpg"
+       },
+       {
+       
+         "title":"Digitalized X-Ray, USG, CT-Scan, MRI",
+         "discription":"SevenHills Hospital provides state-in-art facilities and has the best machines available. and more then effective services It includes Digitalized X-Ray, USG, CT-Scan & MRI.",
+        
+         "id": "PuW 5a6 8hi8 3yw4sgd3 P",
+         
+         "picture":"http://www.sevenhillshospital.com/images/large/sevenhills-digitalized-xray-technology-lg.jpg"
+       }
+       
+       ]
+   
+   }

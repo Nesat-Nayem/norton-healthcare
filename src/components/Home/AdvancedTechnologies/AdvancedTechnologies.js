@@ -2,21 +2,21 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
-const PatientsVisitors = () => {
+const AdvancedTechnologies = () => {
    
         const[campuse,setCampus]= useState([])
 
         useEffect(()=>{
-            fetch('pationts.json')
+            fetch('technologies.json')
             .then(res=>res.json())
-            .then(data=>setCampus(data.campus))
+            .then(data=>setCampus(data.Technologies))
         },[])
         return (
             <div className="container">
-                <img className="img-fluid" src="https://wphospital.org/App_Themes/WPHRedesign/images/img11.jpg" alt="" />
+                <img className="img-fluid" src="https://i.ibb.co/DGRP1YM/12.jpg" alt="" />
     
                 <div>
-                    <h1 className="m-2 mainText p-5 text-success">We Find out Our patients History To Use Our Work Motivation And Speed More Then Fast. We listen there So Much Lovely And sincerely</h1>
+                    <h1 className="m-2 text-center mainText p-5 text-success">We Foockus All Time Latest Technology</h1>
     
                 <div>
                     <div className="row">
@@ -43,4 +43,4 @@ const PatientsVisitors = () => {
         );
 };
 
-export default PatientsVisitors;
+export default AdvancedTechnologies;
