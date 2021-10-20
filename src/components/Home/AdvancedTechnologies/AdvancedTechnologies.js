@@ -16,7 +16,7 @@ const AdvancedTechnologies = () => {
                 <img className="img-fluid" src="https://i.ibb.co/DGRP1YM/12.jpg" alt="" />
     
                 <div>
-                    <h1 className="m-2 text-center mainText p-5 text-success">We Foockus All Time Latest Technology</h1>
+                    <h1 className="m-2 text-center mainText p-5 text-success">We Focus All Time Latest Technology</h1>
     
                 <div>
                     <div className="row">
